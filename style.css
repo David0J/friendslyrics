@@ -1,0 +1,77 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.cont {
+    width: fit-content;
+    padding-left: 65%;
+    height: auto;
+}
+.lyr {
+    width: fit-content;
+    text-align: center;
+}
+.red {
+    color: red;
+    font-size: x-large;
+}
+.yellow {
+    color: yellow;
+    font-size: x-large;
+}
+.blue {
+    color: blue;
+    font-size: x-large;
+}
+.end {
+    color: white;
+    font-size: large;
+}
+.img {
+    border-radius: 5px;
+}
+.name {
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 1300px;
+    
+}
+@media (max-width: 400px) {
+* {
+    margin: 0px;
+    background-color: black;
+    background-image: none;
+    padding: 0px;
+}
+#hid {
+    display: none;
+}
+.lyr {
+    width: max-content;
+}
+.cont {
+    padding: 0px;
+}
+.h1 {
+    font-size: 25px;
+}
+.yellow {
+    font-size: large;
+}
+.red {
+    font-size: large;
+}
+.blue {
+    font-size: large;
+}
+}
